@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ButtonTestView.swift
 //  SwiftUI View Inside a MapKit Callout
 //
 //  Created by Ahmed El-Khuffash on 2020-05-31.
@@ -8,19 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ButtonTestView: View {
     var body: some View {
-		NavigationView {
-			MapView()
-				//.edgesIgnoringSafeArea(.all)
-			
-			.navigationBarTitle("SwiftUI Callouts")
-		}
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ButtonTestView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ButtonTestView()
     }
 }

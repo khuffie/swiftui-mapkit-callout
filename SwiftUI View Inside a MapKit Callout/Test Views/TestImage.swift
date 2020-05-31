@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TestImage.swift
 //  SwiftUI View Inside a MapKit Callout
 //
 //  Created by Ahmed El-Khuffash on 2020-05-31.
@@ -8,19 +8,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TestImage: View {
+	
+	var imageName: String
+	
     var body: some View {
-		NavigationView {
-			MapView()
-				//.edgesIgnoringSafeArea(.all)
-			
-			.navigationBarTitle("SwiftUI Callouts")
-		}
+        Image(imageName)
+		.resizable()
+		.scaledToFit()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TestImage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+		TestImage(imageName: "marvin")
+
     }
 }

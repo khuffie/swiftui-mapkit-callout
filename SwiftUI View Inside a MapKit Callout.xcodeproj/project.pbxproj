@@ -13,6 +13,11 @@
 		794E8CC42484424400E18AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794E8CC32484424400E18AF7 /* Assets.xcassets */; };
 		794E8CC72484424400E18AF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794E8CC62484424400E18AF7 /* Preview Assets.xcassets */; };
 		794E8CCA2484424400E18AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794E8CC82484424400E18AF7 /* LaunchScreen.storyboard */; };
+		794E8CD32484427400E18AF7 /* MapCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E8CD22484427400E18AF7 /* MapCalloutView.swift */; };
+		794E8CD5248442AD00E18AF7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E8CD4248442AD00E18AF7 /* MapView.swift */; };
+		794E8CD8248449F500E18AF7 /* TestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E8CD7248449F500E18AF7 /* TestImage.swift */; };
+		794E8CDA24844C5C00E18AF7 /* TestScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E8CD924844C5C00E18AF7 /* TestScrollView.swift */; };
+		794E8CDE24844D5F00E18AF7 /* TestButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794E8CDD24844D5F00E18AF7 /* TestButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		794E8CC62484424400E18AF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		794E8CC92484424400E18AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		794E8CCB2484424400E18AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794E8CD22484427400E18AF7 /* MapCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCalloutView.swift; sourceTree = "<group>"; };
+		794E8CD4248442AD00E18AF7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		794E8CD7248449F500E18AF7 /* TestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage.swift; sourceTree = "<group>"; };
+		794E8CD924844C5C00E18AF7 /* TestScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollView.swift; sourceTree = "<group>"; };
+		794E8CDD24844D5F00E18AF7 /* TestButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		794E8CBC2484424100E18AF7 /* SwiftUI View Inside a MapKit Callout */ = {
 			isa = PBXGroup;
 			children = (
+				794E8CD6248449E400E18AF7 /* Test Views */,
+				794E8CD12484426200E18AF7 /* MapViews */,
 				794E8CBD2484424100E18AF7 /* AppDelegate.swift */,
 				794E8CBF2484424100E18AF7 /* SceneDelegate.swift */,
 				794E8CC12484424100E18AF7 /* ContentView.swift */,
@@ -73,6 +85,25 @@
 				794E8CC62484424400E18AF7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		794E8CD12484426200E18AF7 /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				794E8CD22484427400E18AF7 /* MapCalloutView.swift */,
+				794E8CD4248442AD00E18AF7 /* MapView.swift */,
+			);
+			path = MapViews;
+			sourceTree = "<group>";
+		};
+		794E8CD6248449E400E18AF7 /* Test Views */ = {
+			isa = PBXGroup;
+			children = (
+				794E8CD7248449F500E18AF7 /* TestImage.swift */,
+				794E8CD924844C5C00E18AF7 /* TestScrollView.swift */,
+				794E8CDD24844D5F00E18AF7 /* TestButtonView.swift */,
+			);
+			path = "Test Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				794E8CD32484427400E18AF7 /* MapCalloutView.swift in Sources */,
+				794E8CDA24844C5C00E18AF7 /* TestScrollView.swift in Sources */,
+				794E8CD8248449F500E18AF7 /* TestImage.swift in Sources */,
 				794E8CBE2484424100E18AF7 /* AppDelegate.swift in Sources */,
+				794E8CD5248442AD00E18AF7 /* MapView.swift in Sources */,
 				794E8CC02484424100E18AF7 /* SceneDelegate.swift in Sources */,
+				794E8CDE24844D5F00E18AF7 /* TestButtonView.swift in Sources */,
 				794E8CC22484424100E18AF7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
