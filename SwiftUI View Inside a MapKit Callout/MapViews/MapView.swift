@@ -92,7 +92,6 @@ struct MapView: UIViewRepresentable {
 					callout = MapCalloutView(rootView: AnyView(customView))
 				case "Button Test":
 					let customView = TestButtonView()
-					
 					callout = MapCalloutView(rootView: AnyView(customView))
 				case "Right Callout Test":
 					let customView = TestImage(imageName: "kitten")
